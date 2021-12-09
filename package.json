@@ -11,6 +11,8 @@
   "dependencies": {
     "@improbable-eng/grpc-web": "^0.14.1",
     "@improbable-eng/grpc-web-node-http-transport": "^0.14.1",
+    "@injectivelabs/chain-consumer": "^0.0.98",
+    "@injectivelabs/derivatives-consumer": "^0.0.75",
     "keccak256": "^1.0.3",
     "request-promise": "^4.2.6",
     "secp256k1": "^4.0.2"
