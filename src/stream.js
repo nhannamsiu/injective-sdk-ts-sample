@@ -8,7 +8,7 @@ function sleep(ms) {
 
 async function main() {
   streams = []
-  for (i=0; i<1; i++) {
+  for (i=0; i<10000; i++) {
     try{
       stream = derivativeMarketStream.orderbook.start({
         marketIds: ['0x4ca0f92fc28be0c9761326016b5a1a2177dd6375558365116b5bdda9abc229ce'],
